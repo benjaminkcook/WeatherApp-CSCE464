@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="./weather.css">
+    <link rel="stylesheet" type="text/css" href="../common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="./weather.html" class="active">Home</a>
+      <a href="../settings/settings.html">Settings</a>
+    </div>
+
+    <div class="container">
+      <h1>Weather App</h1>
+      <form id="location-form" class="location-form">
+          <input type="text" id="location-input" class="location-input" placeholder="Enter a location (e.g New York)">
+          <button type="submit" class="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+
+    <div id="weather-info" class="weather-info"></div>
+
+    <script src="./weather.js"></script>
+    <script src="../settingsManger.js"></script>
+  </body>
+
+</html>

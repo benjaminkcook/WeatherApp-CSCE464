@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" type="text/css" href="./settings.css">
+        <link rel="stylesheet" type="text/css" href="../common.css">
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href="../weather/weather.html">Home</a>
+            <a href="./settings.html" class="active">Settings</a>
+        </div>
+
+        <div class="container">
+            <h1>Settings</h1>
+            <form id="settings-form" class="settings-form">
+                <div class="setting">
+                    <label for="unit-type">Unit Type:</label>
+                    <select id="unit-type">
+                        <option value="metric">Metric</option>
+                        <option value="imperial">Imperial</option>
+                    </select>
+                </div>
+
+                <div class="setting">
+                    <label for="dark-mode">Dark Mode:</label>
+                    <input type="checkbox" id="dark-mode" name="dark-mode">
+                    
+                </div>
+
+                <button type="submit" class="submit">Save</button>
+
+            </form>
+          </div>
+
+          <div id="settings-info" class="settings-info"></div>
+
+        <script src="./settings.js"></script>
+        <script src="../settingsManger.js"></script>
+    </body>
+</html>

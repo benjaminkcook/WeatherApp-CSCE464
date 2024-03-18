@@ -1,0 +1,24 @@
+.settings-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #B0A695;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.submit {
+    border: 1px solid #B0A695;;
+    background: #B0A695;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.setting {
+    margin-bottom: 20px;
+}
+
+.settings-info {
+    width: 100%;
+    text-align: center;
+}
